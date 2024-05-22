@@ -1,0 +1,57 @@
+.dw{
+    background-color: rgb(124, 124, 240);
+    padding: 20px;
+    border-radius: 20px;
+    justify-content: center;
+    display: flex;
+}
+.ndx{
+    height: 50px;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    grid-template-columns: repeat(6,1fr);
+    margin: 10px auto;
+    background-color: rgb(38, 144, 103);
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+
+}
+.rslt{
+    height: 50px;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    grid-template-columns: repeat(6,1fr);
+    margin: 10px auto;
+    background-color: rgb(136, 150, 29);
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+
+}
+.cnt{
+    height: auto;
+    text-align: center;
+    
+}
+.form-label{
+    font-weight: bolder;
+    color: blue;
+}
+.inp{
+    margin: 5px auto;
+    border-radius: 20px;
+    text-align: center !important;
+}
+.h5nd{
+    align-content: center;
+}
+.btn1{
+    width: 40%;
+    display: flex !important;
+    justify-content: space-between ;
+    align-items: center;
+    text-align: right !important;
+}
